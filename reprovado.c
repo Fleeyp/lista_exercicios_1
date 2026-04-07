@@ -11,7 +11,7 @@ void delay_print(char *str, int delay) {
 }
 
 int reprovado() {
-    char *text = "\n\n          YOU DIED!          \n\n";
+    char *text = "\n\n          YOU DIED!          \n\n\n";
 
     printf("\033[1;31m"); 
     delay_print(text, 150000);
@@ -19,5 +19,3 @@ int reprovado() {
 
     return 0;
 }
-
-// A lógica desse arquivo eu criei com IA, só fiz essa palhaçada pra brincar com os imports.

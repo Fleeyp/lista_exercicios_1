@@ -19,4 +19,3 @@ float main() {
     printf("Área: %.2f\n", area);
     return 0;
 }
-
